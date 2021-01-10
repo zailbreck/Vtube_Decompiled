@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:appcompat="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="false" android:orderInCategory="100" android:title="Go Back" android:onClick="goBackButtonClicked" appcompat:showAsAction="0x0" />
+	<item android:id="false" android:orderInCategory="101" android:title="Go Forward" android:onClick="goForwardButtonClicked" appcompat:showAsAction="0x0" />
+	<item android:id="false" android:orderInCategory="102" android:title="Share" android:onClick="shareButtonClicked" appcompat:showAsAction="0x0" />
+	<item android:id="false" android:orderInCategory="103" android:title="Reload" android:onClick="reloadButtonClicked" appcompat:showAsAction="0x0" />
+	<item android:id="false" android:orderInCategory="104" android:title="Close" android:onClick="closeButtonClicked" appcompat:showAsAction="0x0" />
+	<item android:id="false" android:title="Search" appcompat:actionViewClass="android.widget.SearchView" appcompat:showAsAction="0x5" />
+</menu>

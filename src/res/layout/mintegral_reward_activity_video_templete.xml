@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ff000" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<com.mintegral.msdk.video.module.MintegralVideoView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+	<com.mintegral.msdk.video.module.MintegralContainerView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	<RelativeLayout android:id="false" android:background="ff000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<ProgressBar android:layout_width="60dp" android:layout_height="60dp" android:layout_centerInParent="true" style="{2:16842874}" />
+	</RelativeLayout>
+</RelativeLayout>

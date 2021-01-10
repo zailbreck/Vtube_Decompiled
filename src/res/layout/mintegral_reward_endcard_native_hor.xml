@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:background="ffffff" android:layout_width="-2" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2">
+		<ImageView android:layout_gravity="0x10" android:id="false" android:layout_width="-1" android:layout_height="60dp" android:scaleType="6" />
+		<TextView android:textSize="15sp" android:textColor="resourceId:0x106000b" android:ellipsize="3" android:id="false" android:paddingLeft="3dp" android:layout_width="-2" android:layout_height="-2" android:text="AD" android:maxEms="20" android:singleLine="true" />
+		<ImageView android:id="false" android:layout_width="35dp" android:layout_height="35dp" android:layout_margin="7dp" android:src="res/drawable-hdpi-v4/mintegral_reward_close.png" android:layout_alignParentRight="true" android:contentDescription="closeButton" />
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+		<View android:orientation="0" android:id="false" android:background="d8d8d8" android:layout_width="-1" android:layout_height="1dp" />
+		<TextView android:textSize="24sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="res/drawable/mintegral_reward_shape_end_pager.xml" android:layout_width="-1" android:layout_height="40dp" android:layout_marginLeft="18dp" android:layout_marginTop="18dp" android:layout_marginRight="18dp" android:text="Install Now" android:layout_below="false" android:layout_centerHorizontal="true" />
+		<ImageView android:layout_width="54dp" android:layout_height="10dp" android:layout_marginTop="15dp" android:layout_marginBottom="10dp" android:src="res/drawable-hdpi-v4/mintegral_reward_end_pager_logo.png" android:scaleType="1" android:layout_below="false" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+		<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-hdpi-v4/mintegral_reward_activity_ad_end_land_des_rl_hot.png" />
+		<ImageView android:id="false" android:background="res/drawable/mintegral_reward_end_shape_oval.xml" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginTop="42dp" android:layout_centerHorizontal="true" />
+		<ImageView android:id="false" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginTop="20dp" android:layout_alignTop="false" android:layout_centerHorizontal="true" />
+		<TextView android:textSize="15sp" android:textColor="282828" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="13dp" android:text="app title" android:maxEms="7" android:singleLine="true" android:layout_below="false" android:layout_centerHorizontal="true" />
+		<com.mintegral.msdk.videocommon.view.StarLevelView android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="20dp" android:layout_marginTop="2dp" android:layout_below="false" android:layout_centerHorizontal="true" />
+		<TextView android:textSize="12sp" android:textColor="5f5f5f" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:layout_marginRight="30dp" android:layout_marginBottom="20dp" android:text="app desc" android:minLines="3" android:layout_below="false" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="{4:1067030938}" />
+	</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:textSize="19sp" android:textColor="ffffff" android:gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Do you want to learn more?" android:layout_centerHorizontal="true" />
+	<TextView android:gravity="0x1" android:id="false" android:layout_width="1dp" android:layout_height="1dp" android:layout_centerHorizontal="true" />
+	<ImageView android:id="false" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginTop="45dp" android:layout_marginRight="35dp" android:src="res/drawable-hdpi-v4/mintegral_reward_vast_end_close.png" android:layout_toLeftOf="false" android:contentDescription="closeButton" />
+	<ImageView android:id="false" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="35dp" android:layout_marginTop="45dp" android:src="res/drawable-hdpi-v4/mintegral_reward_vast_end_ok.png" android:layout_toRightOf="false" />
+</RelativeLayout>

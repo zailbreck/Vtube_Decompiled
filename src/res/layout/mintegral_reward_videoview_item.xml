@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ff000" android:layout_width="-1" android:layout_height="-1" android:keepScreenOn="true">
+	<com.mintegral.msdk.playercommon.PlayerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<TextView android:textSize="12sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x800003" android:id="false" android:background="res/drawable/mintegral_reward_shape_progress.xml" android:visibility="0" android:layout_width="30dp" android:layout_height="30dp" android:layout_margin="10dp" />
+	<com.mintegral.msdk.video.widget.SoundImageView android:layout_gravity="0x50" android:id="false" android:visibility="0" android:layout_width="35dp" android:layout_height="35dp" android:layout_marginLeft="10dp" android:layout_marginBottom="10dp" />
+	<FrameLayout android:layout_gravity="0x800005" android:id="false" android:visibility="0" android:layout_width="35dp" android:layout_height="35dp" android:layout_margin="10dp">
+		<ImageView android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-hdpi-v4/mintegral_reward_close.png" android:contentDescription="closeButton" />
+	</FrameLayout>
+</FrameLayout>

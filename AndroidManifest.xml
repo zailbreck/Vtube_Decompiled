@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="67" android:versionName="2.1.4" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="co.vtube.fvtech" platformBuildVersionCode="29" platformBuildVersionName="10">
+	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="29" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="com.android.vending.BILLING" />
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+	<application android:label="VTube" android:icon="res/mipmap-xxxhdpi-v4/ic_launcher.png" android:name="io.flutter.app.FlutterApplication" android:allowBackup="false" android:hardwareAccelerated="true" android:usesCleartextTraffic="false" android:networkSecurityConfig="res/xml/network_security_config.xml" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:requestLegacyExternalStorage="true">
+		<activity android:theme="resourceId:0x7f0f00bd" android:name="com.kuqicc.future.MainActivity" android:launchMode="singleTop" android:configChanges="0x40003fb4" android:windowSoftInputMode="0x10" android:hardwareAccelerated="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:theme="resourceId:0x7f0f00bf" android:name="com.mopub.mobileads.MraidVideoPlayerActivity" android:configChanges="0x4a0" />
+		<activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.mintegral.msdk.activity.MTGCommonActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="0x90" />
+		<activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:name="com.mintegral.msdk.reward.player.MTGRewardVideoActivity" android:exported="false" android:configChanges="0x4a0" />
+		<activity android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:name="com.chartboost.sdk.CBImpressionActivity" android:excludeFromRecents="true" android:configChanges="0x4a0" android:hardwareAccelerated="true" />
+		<meta-data android:name="flutterEmbedding" android:value="2" />
+		<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-3940256099942544~3347511713" />
+		<meta-data android:name="com.startapp.sdk.APPLICATION_ID" android:value="205388448" />
+		<meta-data android:name="com.startapp.sdk.RETURN_ADS_ENABLED" android:value="false" />
+		<provider android:name="sk.fourq.otaupdate.OtaUpdateFileProvider" android:exported="false" android:authorities="co.vtube.fvtech.ota_update_provider" android:grantUriPermissions="true">
+			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="res/xml/filepaths.xml" />
+		</provider>
+		<activity android:theme="resourceId:0x7f0f00bf" android:name="com.mopub.mobileads.MoPubActivity" android:configChanges="0x4a0" />
+		<activity android:theme="resourceId:0x7f0f00bf" android:name="com.mopub.mobileads.MoPubFullscreenActivity" android:configChanges="0x4a0" />
+		<activity android:theme="resourceId:0x7f0f00bf" android:name="com.mopub.common.MoPubBrowser" android:configChanges="0x4a0" />
+		<activity android:theme="resourceId:0x7f0f00bf" android:name="com.mopub.common.privacy.ConsentDialogActivity" android:configChanges="0x4a0" />
+		<activity android:theme="resourceId:0x7f0f0005" android:name="com.pichillilorenzo.flutter_inappwebview.InAppBrowser.InAppBrowserActivity" android:configChanges="0x480" />
+		<activity android:theme="resourceId:0x7f0f0136" android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ChromeCustomTabsActivity" android:configChanges="0x480" />
+		<receiver android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ActionBroadcastReceiver" />
+		<meta-data android:name="com.google.android.play.billingclient.version" android:value="2.0.3" />
+		<activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.android.billingclient.api.ProxyBillingActivity" android:configChanges="0x5b0" />
+		<provider android:name="io.flutter.plugins.share.ShareFileProvider" android:exported="false" android:authorities="co.vtube.fvtech.flutter.share_provider" android:grantUriPermissions="true">
+			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="res/xml/flutter_share_file_paths.xml" />
+		</provider>
+		<activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:name="io.flutter.plugins.urllauncher.WebViewActivity" android:exported="false" />
+		<provider android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider" android:exported="false" android:authorities="co.vtube.fvtech.flutter.image_provider" android:grantUriPermissions="true">
+			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="res/xml/flutter_image_picker_file_paths.xml" />
+		</provider>
+		<meta-data android:name="com.android.vending.derived.apk.id" android:value="1" />
+	</application>
+</manifest>

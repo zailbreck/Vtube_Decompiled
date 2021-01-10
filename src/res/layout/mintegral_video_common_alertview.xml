@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="73000" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:layout_gravity="0x11" android:background="res/drawable/mintegral_video_common_alertview_bg.xml" android:padding="30dp" android:layout_width="-2" android:layout_height="-2">
+		<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="38b154" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="确认关闭？" />
+		<TextView android:textSize="18sp" android:textColor="353535" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="13dp" android:maxWidth="240dp" android:minWidth="240dp" android:text="关闭后您将不会获得任何奖励噢~ " android:layout_below="false" />
+		<Button android:textSize="18sp" android:textColor="38b154" android:id="false" android:background="res/drawable/mintegral_video_common_alertview_confirm_bg.xml" android:layout_width="105dp" android:layout_height="38dp" android:layout_marginTop="38dp" android:layout_marginBottom="4dp" android:text="确认关闭" android:layout_below="false" />
+		<Button android:textSize="18sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/mintegral_video_common_alertview_cancel_bg.xml" android:layout_width="105dp" android:layout_height="38dp" android:layout_marginTop="38dp" android:layout_marginBottom="4dp" android:text="继续观看" android:layout_below="false" android:layout_alignRight="false" />
+	</RelativeLayout>
+</FrameLayout>

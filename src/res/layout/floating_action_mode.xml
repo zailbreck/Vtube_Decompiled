@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable/floating_action_mode_shape.xml" android:layout_width="-2" android:layout_height="-2" android:alpha="{4:0}">
+	<HorizontalScrollView android:layout_width="-2" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" />
+	</HorizontalScrollView>
+</LinearLayout>

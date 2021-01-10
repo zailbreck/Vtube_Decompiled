@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="resourceId:0x0" android:layout_width="-1" android:layout_height="-1" />
+	<ImageView android:id="false" android:visibility="2" android:layout_width="35dp" android:layout_height="35dp" android:layout_margin="10dp" android:src="res/drawable-hdpi-v4/mintegral_reward_close.png" android:scaleType="7" android:layout_alignParentRight="true" android:contentDescription="closeButton" android:layout_alignParentEnd="true" />
+</RelativeLayout>
